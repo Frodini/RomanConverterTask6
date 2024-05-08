@@ -3,7 +3,7 @@ const INVALID_ROMAN = 'Please enter a valid roman';
 const INVALID_INTEGER = 'Please enter a valid integer';
 const OUT_OF_RANGE = 'Out of range (1-3999)';
 
-function init( { 
+function init() { 
   
   // Load elements once to avoid repetition on every invocation
   var modeCheckbox = document.querySelector('input[type=\'checkbox\']');
